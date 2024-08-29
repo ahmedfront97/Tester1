@@ -29,7 +29,7 @@ body{
     height: 30px;
     padding-left: 10px;
     position: absolute;
-    top: 5px;
+    top: 3px;
    
 }
 
@@ -275,17 +275,18 @@ body{
 }
 
 
-
-
-.show-nav{
-    height: 250px;
-}
-
 .nav-bar{
     position: fixed;
     z-index: 1;
     top: 0;
     height: 35px;
+}
+
+.show-nav{
+    height: 250px;
+}
+
+
 =======
 *{
     padding: 0 ;
