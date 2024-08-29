@@ -17,7 +17,8 @@ body{
     justify-content: space-between;
     align-items: center;
     transition: 1s;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 8px;
     background-image: linear-gradient(to right ,#c9ffbf,#ffafbd);
     
     
@@ -27,6 +28,8 @@ body{
     width: 20%;
     height: 30px;
     padding-left: 10px;
+    position: absolute;
+    top: 5px;
    
 }
 
@@ -40,25 +43,28 @@ body{
     height: 30px;
     text-align: right;
     cursor: pointer;
+    
   
 }
 
 .nav-bar .my-ul{
-    width: 60%;
+    width: 100%;
     margin: 0;
     text-align: center;
     padding: 0;
     list-style: none;
+    
 }
 
 .nav-bar .my-ul li{
     display: inline;
     margin-left: 10px;
+    
 }
 .nav-bar  a{
     text-decoration: none;
     text-transform: capitalize;
-    color: black;
+    color: #1fa19b;
 }
 
 .search{
@@ -96,6 +102,98 @@ body{
     padding: 2px;
     font-size: 14px;
 }
+
+
+/* start banner part */
+.banner-part{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.banner-part .web-design{
+}
+
+.banner-part .web-design h3{
+    color: #1fa19b;
+}
+.banner-part .web-design p{
+    color: gray;
+    font-style: italic;
+}
+.banner-part .web-design .web-design-img{
+    position: relative ;
+    height: 50vh;
+}
+
+.banner-part .web-design .web-design-img img{
+   position: absolute ;
+   width: 220px;
+   transition: 1s;
+}
+
+
+.banner-part .web-design .controle{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.banner-part .web-design .controle div{
+    margin: 8px;
+    cursor: pointer;
+    color: #ffafbd;
+}
+
+
+   
+
+.banner-part .code{
+    position: relative;
+    
+}
+
+.banner-part .code h3{
+    color: #1fa19b;
+}
+
+.banner-part .code button{
+    background: none;
+    position: relative;
+    border: 0;
+    border: 2px solid #c9ffbf;
+    padding: 2px;
+    border-radius: 10px;
+    color: #1fa19b;
+    background-color: #c9ffbf;
+    
+}
+
+.banner-part .code p{
+    color: gray;
+    font-style: italic;
+    
+}
+.banner-part .code .share{
+  
+    bottom: 30px;
+    color: #1fa19b;
+    
+}
+
+.banner-part .code .share i{
+    position: absolute;
+    bottom: 30px;
+    color: #c9ffbf;
+    
+}
+/* 
+/* end banner part */
+
+
+
+
+
+
 @media only screen and (min-width:800px){
     .nav-bar .icon-bar{
         display: none;
@@ -187,6 +285,7 @@ body{
     position: fixed;
     z-index: 1;
     top: 0;
+    height: 35px;
 =======
 *{
     padding: 0 ;
@@ -287,6 +386,12 @@ body{
     padding: 2px;
     font-size: 14px;
 }
+
+
+
+
+
+
 @media only screen and (min-width:800px){
     .nav-bar .icon-bar{
         display: none;
@@ -378,5 +483,6 @@ body{
     position: fixed;
     z-index: 1;
     top: 0;
+    
 >>>>>>> 705f495 (first commit)
 }
