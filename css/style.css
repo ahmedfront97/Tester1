@@ -80,8 +80,7 @@ body{
     background: none;
     outline: none;
     border: 0;
-    border-top: 1px solid #ffafbd;
-    border-left : 1px solid #ffafbd;
+    border: 2px solid #ffafbd;
     padding-left: 5px;
     border-radius: 10px;
     width: 60%;
@@ -92,8 +91,7 @@ body{
 .search .button button {
     background: none;
     border: 0;
-    border-top: 1px solid #c9ffbf;
-    border-left : 1px solid #c9ffbf;
+    border: 2px solid #c9ffbf;
     border-radius: 10px;
     padding: 2px;
     font-size: 14px;
